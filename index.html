@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="en">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <title>Github Clone</title>
+
+    </head>
+    <body>
+        
+
+            <header class="header">
+                <img src="img/github-mark.png" alt="Github logo" class="logo">
+                
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search or jump to...">
+                        
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href ="img/sprite.svg#icon-magnifying-glass">
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="navigation">
+                    <ul class="navigation__menu">
+                        <li class="navigation__item">Pull rquests</li>
+                        <li class="navigation__item">Issues</li>
+                        <li class="navigation__item">Marketplace</li>
+                        <li class="navigation__item">Explore</li>
+                    </ul>
+                </nav>
+
+            </header>   
+        <div class="container">
+            <nav class="side-nav">
+                <div class="repositories">
+                    <div class="repositories__title">
+                        <label for="repositories__input" class="repositories__label">Repositories</label>
+                        <button class="repositories__button">  
+                            <img src="img/book.png" alt="icon" class="repositories__icon">
+                            New
+                        </button>
+                        
+                    </div>
+
+                    <input type="text" class="repositories__input" placeholder="Find a repository...">
+
+                    <ul class="repositories__menu">
+                        <li class="repositories__item">
+                            <img src="img/book.png" alt="icon" class="repositories__icon repositories__icon--blue">
+                            <a href="#" class="repositories__link">AmaralLuan/repositories</a>
+                        </li>
+                        <li class="repositories__item">
+                            <img src="img/book.png" alt="icon" class="repositories__icon repositories__icon--blue">
+                            <a href="#" class="repositories__link">AmaralLuan/Lorem-ipsum</a>
+                        </li>
+                        <li class="repositories__item">
+                            <img src="img/book.png" alt="icon" class="repositories__icon repositories__icon--blue">
+                            <a href="#" class="repositories__link">AmaralLuan/Sit-dorti an me</a>
+                        </li>
+                        <li class="repositories__item">
+                            <img src="img/book.png" alt="icon" class="repositories__icon repositories__icon--blue">
+                            <a href="#" class="repositories__link">AmaralLuan/repositories</a>
+                        </li>
+                        <li class="repositories__item">
+                            <img src="img/book.png" alt="icon" class="repositories__icon repositories__icon--blue">
+                            <a href="#" class="repositories__link">AmaralLuan/repositories</a>
+                        </li>
+                        <li class="repositories__item">
+                            <img src="img/book.png" alt="icon" class="repositories__icon repositories__icon--blue">
+                            <a href="#" class="repositories__link">AmaralLuan/repositories</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="side-nav__text">
+                    <h3 class="side-nav__text-header">
+                        Working with a team?
+                    </h3>
+
+                    <p class="side-nav__text-paragraph">
+                        GitHub is built for collaboration.
+                        Set up an organization to improve the way your team works together,
+                        and get access to more <br>features.
+                    </p>
+
+                    <button class="side-nav__text-button">
+                        Create an organization
+                    </button>
+                </div>
+            </nav>
+
+            <main class="feed">
+                <div class="feed__main-div">
+                    <div class="feed__notification">
+                        <img src="img/19.jpg" alt="profile picture" class="feed__user-profile-pic">
+                        <label class="feed__notification-label">
+                            <b>{USER}</b> started following <b>{USER_NAME}</b> and <b>{USER_NAME}</b>
+                        </label>
+
+                        <label class="feed__notification-label">
+                            Update August 25
+                        </label>
+                    </div>
+                    <div class="feed__activity-description">
+                        <div class="feed__activity-description-info">
+                            <img src="img/54.jpg" alt="profile picture" class="feed__user-profile-pic">
+
+                            <div class="feed_activity-description-text">
+                                <h3 class="feed__activity-description-header">{USER}/repository</h3>
+                                <p class="feed__activity-description-details">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid eligendi.
+                                </p>
+                            </div> 
+
+                            <button class="feed__activity-description-button">Follow</button>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feed__main-div">
+                    <div class="feed__notification">
+                        <img src="img/19.jpg" alt="profile picture" class="feed__user-profile-pic">
+                        <label class="feed__notification-label">
+                            <b>{USER}</b> started following <b>{USER_NAME}</b> and <b>{USER_NAME}</b>
+                        </label>
+
+                        <label class="feed__notification-label">
+                            Update August 25
+                        </label>
+                    </div>
+                    <div class="feed__activity-description">
+                        <div class="feed__activity-description-info">
+                            <img src="img/54.jpg" alt="profile picture" class="feed__user-profile-pic">
+
+                            <div class="feed_activity-description-text">
+                                <h3 class="feed__activity-description-header">{USER}/repository</h3>
+                                <p class="feed__activity-description-details">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid eligendi.
+                                </p>
+                            </div> 
+
+                            <button class="feed__activity-description-button">Follow</button>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feed__main-div">
+                    <div class="feed__notification">
+                        <img src="img/72.jpg" alt="profile picture" class="feed__user-profile-pic">
+                        <label class="feed__notification-label">
+                            <b>{USER}</b> started following <b>{USER_NAME}</b> and <b>{USER_NAME}</b>
+                        </label>
+
+                        <label class="feed__notification-label">
+                            Update August 25
+                        </label>
+                    </div>
+                    <div class="feed__activity-description">
+                        <div class="feed__activity-description-info">
+                            <img src="img/35.jpg" alt="profile picture" class="feed__user-profile-pic">
+
+                            <div class="feed_activity-description-text">
+                                <h3 class="feed__activity-description-header">{USER}/repository</h3>
+                                <p class="feed__activity-description-details">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid eligendi. consectetur adipisicing elit. Quasi aliquid eligendi.
+                                </p>
+                            </div> 
+
+                            <button class="feed__activity-description-button">Follow</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <section class="right-nav">
+                <div class="CTA-box">
+                    <h2>
+                        Github for Mobile
+                    </h2>
+                </div>
+            </section>
+        </div>
+       
+    </body>
+</html>

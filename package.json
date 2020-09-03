@@ -1,0 +1,14 @@
+{
+  "name": "github-clone",
+  "version": "1.0.0",
+  "description": "Github main page clone",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Luan Amaral",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*    VARIABLES   */
+
+$main-color: #24292e;
+$input-box-color: #7d7d7d;
+$background-color: #f6f8fa;
+$background-btn-color: #fafbfc;
+
+$white: #fff;
+
+$grey-light: #a8a8a8;
+$grey-light-2: #dbdbdb;
+$grey-light-3: #fafafa;
+
+$grey-dark: #24292e;
+
+$green-btn: #2c974b;
+
+$link-color-text: #0366d6;
+
+
+
+/*------------------*/
+
+html {
+    font-size: 62.5%; // stands for 10px = 1rem
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: $background-color;
+    overflow: hidden;
+}
