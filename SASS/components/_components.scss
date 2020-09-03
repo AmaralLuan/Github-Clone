@@ -263,9 +263,89 @@
 // RIGHT-NAV COMPONENTS
 
 .CTA-box {
-    width: 90%;
-    background-color: #dbdbdb;
+    position: relative;
+    width: 80%;
+    background-color: #fff;
     padding: 1.6rem;
-    border: none;
+    border: 1px solid $grey-light-2;
     border-radius: 5px;
+    margin: 3rem auto;
+
+    &__img{
+        position: absolute;
+        top: 10%;
+        right: 5%;        
+        width: 2rem;
+        height: 2rem;
+
+    }
+
+
+    &__description {
+        margin: 1rem 0;
+        font-size: 1.3rem;
+        line-height: 1.2;
+
+    }
+}
+
+.btn__box {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.btn__google {
+    width: 12rem;
+    height: 4rem;
+}
+
+.btn__google:not(:last-child) {
+    margin-right: 0.3rem;
+}
+
+.header-secondary {
+    margin-left: 1.5rem;
+    
+}
+
+.explore-box {
+    margin-left: 1.5rem;
+    width: 80%;
+    padding: 1rem 0;
+    border-bottom: 1px solid $grey-light-2;
+
+
+    &__header {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    &__text {
+        font-size: 1.1rem;
+        line-height: 1.1;
+    }
+
+}
+
+.dot {
+    background: cyan;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.rating-box {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    margin: 1rem 0;
+    
+}
+
+.rating {
+    align-self: center;
+    margin-left: 1rem;
 }

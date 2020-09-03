@@ -3,6 +3,7 @@
     width: 100vw;
     display: flex;
     overflow-y: scroll;
+    
 }
 
 //SIDE-BAR
@@ -12,6 +13,7 @@
     font-family: inherit;
     padding: 2.4rem;
     flex: 0 0 22%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: $white;
@@ -56,6 +58,7 @@
 
 .feed {
     background-color: $background-color;
+    
     
 }
 
