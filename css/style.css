@@ -248,6 +248,7 @@ body {
 .container {
   background-color: #f6f8fa;
   width: 100vw;
+  height: 100vh;
   display: flex;
   overflow-y: scroll; }
 
@@ -256,7 +257,7 @@ body {
   font-family: inherit;
   padding: 2.4rem;
   flex: 0 0 22%;
-  height: 100vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   background-color: #fff; }
